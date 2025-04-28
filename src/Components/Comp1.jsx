@@ -7,10 +7,8 @@ const Comp1 = () => {
   }
   return (
     <div>
-      <p>
-        state is: {state}
-      </p>
       <button onClick={increment}>click</button>
+      <p> state is: {state}</p>
     </div>
   );
 };

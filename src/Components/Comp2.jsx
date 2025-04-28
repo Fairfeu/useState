@@ -6,10 +6,13 @@ const Comp2 = () => {
     setText((text) => !text)
   }
   return (
-    <div>
-      {text && <p> Some text  :</p>}
+    <p>
+
       <button onClick={showText}>Show/Hide text</button>
-    </div>
+      <span>
+        {text && <span> Some text :</span>}
+      </span>
+    </p>
   );
 };
 export default Comp2
